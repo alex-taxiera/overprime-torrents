@@ -1,0 +1,45 @@
+html, body {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+.fa-magnet {
+  color: crimson;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+}
+
+#root header {
+  border-bottom: 1px solid gray;
+}
+
+#root main {
+  flex: 2;
+}
+
+#root main table {
+  overflow-y: auto;
+  text-align: unset;
+  margin: auto;
+}
