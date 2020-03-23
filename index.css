@@ -6,15 +6,11 @@ html, body {
   height: 100vh;
 }
 
-a {
+a, a:visited {
   color: blue;
 }
 
 a:hover {
-  color: skyblue;
-}
-
-a:visited {
   color: skyblue;
 }
 
@@ -25,21 +21,21 @@ a:visited {
 #root {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
   text-align: center;
 }
 
 #root header {
+  position: sticky;
+  top: 0;
   border-bottom: 1px solid gray;
 }
 
-#root main {
-  flex: 2;
-}
-
 #root main table {
-  overflow-y: auto;
   text-align: unset;
   margin: auto;
+}
+
+#root footer {
+  position: sticky;
+  bottom: 0;
 }
